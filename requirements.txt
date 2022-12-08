@@ -84,7 +84,7 @@ Mako==1.2.4
 MarkupSafe==2.0.0
 matplotlib==3.4.2
 matplotlib-inline==0.1.2
--e git+https://github.com/MORE-EU/matrixprofile.git@7c598385f7723f337d7bf7d3f90cffb690c6b0df#egg=matrixprofile&subdirectory=../../matrixprofile
+matrixprofile==1.1.10
 memory-profiler==0.58.0
 missingno==0.4.2
 mistune==0.8.4
@@ -155,6 +155,7 @@ scikit-learn==1.0.2
 scipy==1.8.1
 seaborn==0.11.1
 Send2Trash==1.5.0
+setuptools==46.4.0
 six==1.16.0
 sklearn==0.0
 sniffio==1.2.0
