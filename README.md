@@ -33,3 +33,21 @@ pip install -r requirements.txt
 ```
 jupyter lab --no-browser --port=<port>
 ```
+
+## Task
+
+Your task for this hackathon is to use the provided example as base and try to solve a forecasting problem for a solar panel. More specifically, you will focus on forecasting the hourly average power output of the panel for 24-hours ahead. For this task, you will use an open dataset from NREL that you can find at https://datahub.duramat.org/dataset/data-for-validating-models-for-pv-module-performance. To evaluate your models keep the last 2 months of the dataset as the test set. Finally, create some plots to graphically demonstrate your results.
+
+
+
+Some hints:
+
+You can find some code on how to parse the NREL dataset in “read_soiling_data.ipynb”.
+
+Consider resampling your dataset in a lower granularity.
+
+Since solar panels are dependent on the sunlight there are daily (and possibly weekly, monthly, etc.) repeating patterns in the sunlight strength. Try to incorporate that information in your models.
+
+Try to think which variables are the most correlated to the current and possibly the future value of the active power of the solar panel.
+
+You will need a way to decide which “lagged” values are more correlated to the current ones. Are there measures that help you calculate this ?
