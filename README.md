@@ -42,12 +42,12 @@ Your task for this hackathon is to use the provided example as base and try to s
 
 Some hints:
 
-You can find some code on how to parse the NREL dataset in “read_soiling_data.ipynb”.
+- You can find some code on how to parse the NREL dataset in “read_soiling_data.ipynb”.
 
-Consider resampling your dataset in a lower granularity.
+- Consider resampling your dataset in a lower granularity.
 
-Since solar panels are dependent on the sunlight there are daily (and possibly weekly, monthly, etc.) repeating patterns in the sunlight strength. Try to incorporate that information in your models.
+- Since solar panels are dependent on the sunlight there are daily (and possibly weekly, monthly, etc.) repeating patterns in the sunlight strength. Try to incorporate that information in your models.
 
-Try to think which variables are the most correlated to the current and possibly the future value of the active power of the solar panel.
+- Try to think which variables are the most correlated to the current and possibly the future value of the active power of the solar panel.
 
-You will need a way to decide which “lagged” values are more correlated to the current ones. Are there measures that help you calculate this ?
+- You will need a way to decide which “lagged” values are more correlated to the current ones. Are there measures that help you calculate this ?
