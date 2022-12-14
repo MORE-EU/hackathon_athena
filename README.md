@@ -34,6 +34,16 @@ pip install -r requirements.txt
 jupyter lab --no-browser --port=<port>
 ```
 
+### Using Docker
+
+- Alternatively, you can use a docker container with evereything set up
+
+```
+docker run -it -p 8888:8888 galexiou/more-hackathon:latest
+```
+
+If you don't have docker engine installed you can find instructions here https://docs.docker.com/engine/install/.
+
 ## Task
 
 Your task for this hackathon is to use the provided example as base and try to solve a forecasting problem for a solar panel. More specifically, you will focus on forecasting the hourly average power output of the panel for 24-hours ahead. For this task, you will use an open dataset from NREL that you can find at https://datahub.duramat.org/dataset/data-for-validating-models-for-pv-module-performance. To evaluate your models keep the last 2 months of the dataset as the test set. Finally, create some plots to graphically demonstrate your results.
