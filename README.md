@@ -51,3 +51,5 @@ Some hints:
 - Try to think which variables are the most correlated to the current and possibly the future value of the active power of the solar panel.
 
 - You will need a way to decide which “lagged” values are more correlated to the current ones. Are there measures that help you calculate this ?
+
+- For the visualization of your results, try to distinguish the historical and forecasted data in the chart (e.g use a different color, line vs dotted-line etc.)
